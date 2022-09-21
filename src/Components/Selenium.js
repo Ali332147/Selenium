@@ -6,7 +6,7 @@ const Selenium = () => {
       <div className=" grid sm:grid-cols-1 md:grid-cols-2 sm:justify-between md:justify-between lg:grid-cols-3 lg:justify-between gap-5 py-8">
         <div id="chkbox" class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body">
-            <button class="btn btn-primary flex">CheckBox</button>
+            <button class="btn btn-success flex">CheckBox</button>
             <input
               id="chk1"
               type="checkbox"
@@ -27,7 +27,7 @@ const Selenium = () => {
         </div>
         <div id="radio" class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body">
-            <button class="btn btn-primary">Radio Button</button>
+            <button class="btn btn-success">Radio Button</button>
             <input id="radio1" type="radio" class=" radio:bg-blue-500 "></input>
             <input id="radio2" type="radio" class=" radio:bg-blue-500 " />
             <input id="radio3" type="radio" class=" radio:bg-blue-500 " />
@@ -36,9 +36,10 @@ const Selenium = () => {
         </div>
         <div id="switch" class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body ">
-            <button class="btn btn-primary">Switch Window</button>
+            <button class="btn btn-success">Switch Window</button>
             <a
-              class=" no-underline link-hover link link-primary text-center"
+                
+              class=" no-underline link-hover link link-success text-center"
               href="http://localhost:3000/cart"
             >
               <button id="switch" class="w-40  btn btn-success">
@@ -49,10 +50,10 @@ const Selenium = () => {
         </div>
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body ">
-            <button class="btn btn-primary">Open New Window</button>
+            <button class="btn btn-success">Open New Window</button>
             <a
               target="_blank"
-              class=" no-underline link link-hover link-primary text-center"
+              class=" no-underline link link-hover link-success text-center"
               href=" "
             >
               <button id="newWin" class="w-40  btn btn-success">
@@ -63,7 +64,7 @@ const Selenium = () => {
         </div>
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body">
-            <label for="my-modal-6" class="btn btn-primary modal-button">
+            <label for="my-modal-6" class="btn btn-success modal-button">
               open modal
             </label>
             <input type="checkbox" id="my-modal-6" class="modal-toggle" />
@@ -90,10 +91,10 @@ const Selenium = () => {
         </div>
         <div id="newWin" class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body ">
-            <button class="btn btn-primary">Open New Window</button>
+            <button class="btn btn-success">Open New Window</button>
             <a
               target="_blank"
-              class=" no-underline link link-hover link-primary text-center"
+              class=" no-underline link link-hover link-success text-center"
               href=" "
             >
               <button class="w-40  btn btn-success">Click me</button>
@@ -102,10 +103,10 @@ const Selenium = () => {
         </div>
         <div class="card w-96 bg-base-100 shadow-xl">
           <div id="window" class="card-body ">
-            <button class="btn btn-primary">Not Use</button>
+            <button class="btn btn-success">Not Use</button>
             <a
               target="_blank"
-              class=" no-underline link link-hover link-primary text-center"
+              class=" no-underline link link-hover link-success text-center"
               href=" "
             >
               <button class="w-40  btn btn-success">Click me</button>
@@ -114,11 +115,12 @@ const Selenium = () => {
         </div>
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body  ">
-            <button class="btn btn-primary">Hamburger button</button>
+            <button class="btn btn-success">Hamburger button</button>
             <div id="ham" className=" text-center">
               <label class="btn btn-success btn-circle swap swap-rotate">
                 <input type="checkbox" />
                 <svg
+                target="_blank"
                   class="swap-off fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -128,6 +130,7 @@ const Selenium = () => {
                   <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
                 </svg>
                 <svg
+                 target="_blank"
                   class="swap-on fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -143,7 +146,7 @@ const Selenium = () => {
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body text-center">
             <div id="dropdown" class="dropdown  dropdown-end">
-              <button class="btn btn-primary">Drop Down</button>
+              <button class="btn btn-success">Drop Down</button>
               {/* <label tabIndex="0" class="btn btn-ghost rounded-btn">Dropdown</label> */}
               <ul
                 tabIndex="0"
