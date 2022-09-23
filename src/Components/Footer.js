@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="items-center justify-center">
           <span class="footer-title">My Project Link</span>
           <a
-            class="p-1 text-warning rounded text-decoration-none"
+            class=" text-success text-lg font-extrabold rounded text-decoration-none"
             title="Practice"
             href="http://localhost:3000/selenium"
             target="_blank"
@@ -16,7 +16,7 @@ const Footer = () => {
             Practice
           </a>
           <a
-            class="p-1 text-danger rounded text-decoration-none"
+            class=" text-success text-lg font-extrabold rounded text-decoration-none"
             title="Selenium"
             href="https://ali332147.github.io/final_site/#selenium"
             target="_blank"
@@ -25,7 +25,7 @@ const Footer = () => {
             Selenium
           </a>
           <a
-            class="p-1 text-primary rounded text-decoration-none"
+            class="p- text-success text-lg font-extrabold rounded text-decoration-none"
             title="Home"
             href="https://ali332147.github.io/final_site/#home"
             target="_blank"
@@ -34,7 +34,7 @@ const Footer = () => {
             Home
           </a>
           <a
-            class="p-1 text-success rounded text-decoration-none"
+            class="p- text-success text-lg font-extrabold rounded text-decoration-none"
             title="Portfolio"
             href="https://ali332147.github.io/third-assign/#"
             target="_blank"
@@ -46,7 +46,7 @@ const Footer = () => {
         <div className="items-center justify-center">
           <span class="footer-title">My Project Link</span>
           <a
-            class="p-1 rounded text-warning text-decoration-none"
+            class="p- rounded text-success text-lg font-extrabold text-decoration-none"
             title="Promach"
             href="https://ali332147.github.io/promach/"
             target="_blank"
@@ -55,7 +55,7 @@ const Footer = () => {
             Promach
           </a>
           <a
-            class="p-1 rounded text-danger text-decoration-none"
+            class="p- rounded text-success text-lg font-extrabold text-decoration-none"
             title=" Resume"
             href="https://ali332147.github.io/My-CV-File/"
             target="_blank"
@@ -64,7 +64,7 @@ const Footer = () => {
             My Resume
           </a>
           <a
-            class="p-1 rounded text-primary text-decoration-none"
+            class="p- rounded text-success text-lg font-extrabold text-decoration-none"
             title="Calculator"
             href="https://ali332147.github.io/calculator-ok/"
             target="_blank"
@@ -73,7 +73,7 @@ const Footer = () => {
             My Calculator
           </a>
           <a
-            class="p-1 rounded text-success text-decoration-none"
+            class="p- rounded text-success text-lg font-extrabold text-decoration-none"
             title="BDD"
             href="https://cucumber.io/docs/bdd/"
             target="_blank"
@@ -85,7 +85,7 @@ const Footer = () => {
         <div className="items-center justify-center">
           <span class="footer-title">Links</span>
           <a
-            class="p-1 rounded text-warning text-decoration-none"
+            class="p- rounded text-success text-lg font-extrabold text-decoration-none"
             title="Amazon"
             href="https://www.amazon.com/"
             target="_blank"
@@ -94,7 +94,7 @@ const Footer = () => {
             Amazon
           </a>
           <a
-            class="p-1 rounded text-danger text-decoration-none"
+            class="p- rounded text-success text-lg font-extrabold text-decoration-none"
             title="Youtube"
             href="https://www.youtube.com/"
             target="_blank"
@@ -103,7 +103,7 @@ const Footer = () => {
             Youtube
           </a>
           <a
-            class="p-1 rounded text-primary text-decoration-none"
+            class="p- rounded text-success font-extrabold text-lg text-decoration-none"
             title="Selenium"
             href="https://www.selenium.dev/"
             target="_blank"
@@ -112,7 +112,7 @@ const Footer = () => {
             Selenium Dev
           </a>
           <a
-            class="p-1 rounded text-success text-decoration-none"
+            class="p- rounded text-success text-lg font-extrabold text-decoration-none"
             title="Maven"
             href="https://mvnrepository.com/search?q=selenium+java"
             target="_blank"

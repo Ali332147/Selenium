@@ -14,7 +14,7 @@ function App() {
   return (
     <div className=''>
        <Navbar></Navbar>
-       <marquee className="text-xl sm:font-bold text-black bg-slate-300 pb-1 uppercase"><span className='text-primary'> I am not a Master  </span>  || <span className='text-primary'>always student </span>  || <span className='text-primary'> but I always try to reach knowledge  </span> ||  <span className='text-primary'>Make something different</span></marquee>
+       <marquee className="text-xl sm:font-bold  text-black bg-slate-300 pb-1 uppercase"><span className='text-primary'> I am not a Master  </span>  || <span className='text-primary'>always student </span>  || <span className='text-primary'> but I always try to reach knowledge  </span> ||  <span className='text-primary'>Make something different</span></marquee>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="selenium" element={<Selenium />} />

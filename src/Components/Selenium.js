@@ -1,65 +1,96 @@
 import React from 'react';
+// import Share from './Share';
+
 
 const Selenium = () => {
-  let handleClick=()=>{
-    alert("I Am Practicing Selenium");
-  }
+  let handleClick = () => {
+    alert('I Am Practicing Selenium');
+  };
   return (
     <div className="flex justify-center">
       <div className=" grid sm:grid-cols-1 md:grid-cols-2 sm:justify-between md:justify-between lg:grid-cols-3 lg:justify-between gap-5 py-8">
         <div id="chkbox" class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body">
             <button class="btn btn-success flex">CheckBox</button>
-            <input
-              id="chk1"
-              type="checkbox"
-              class=" checked:bg-blue-500 "
-            ></input>
-            <input
-              id="chk2"
-              type="checkbox"
-              class=" checked:bg-blue-500 "
-            ></input>
-            <input
-              id="chk3"
-              type="checkbox"
-              class=" checked:bg-blue-500 "
-            ></input>
-            <input id="chk4" type="checkbox" class=" checked:bg-blue-500 " />
+            <span className="text-center">
+              <input
+                id="chk1"
+                type="checkbox"
+                class="mr-2 checked:bg-blue-500 "
+              ></input>
+              Checkbox1
+            </span>
+            <span className="text-center">
+              <input
+                id="chk2"
+                type="checkbox"
+                class="mr-2 checked:bg-blue-500 "
+              ></input>
+              Checkbox2
+            </span>
+            <span className="text-center">
+              <input
+                id="chk3"
+                type="checkbox"
+                class="mr-2 checked:bg-blue-500 "
+              ></input>
+              Checkbox3
+            </span>
           </div>
         </div>
         <div id="radio" class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body">
             <button class="btn btn-success">Radio Button</button>
-            <input id="radio1" type="radio" class=" radio:bg-blue-500 "></input>
-            <input id="radio2" type="radio" class=" radio:bg-blue-500 " />
-            <input id="radio3" type="radio" class=" radio:bg-blue-500 " />
-            <input id="radio4" type="radio" class=" radio:bg-blue-500 " />
+            <span className="text-center">
+              <input
+                id="radio1"
+                type="radio"
+                class="mr-2 radio:bg-blue-500 "
+              ></input>
+              Radio1
+            </span>
+            <span className="text-center ">
+              <input
+                id="radio2"
+                type="radio"
+                class="mr-2 radio:bg-blue-500 "
+              ></input>
+              Radio2
+            </span>
+            <span className="text-center">
+              <input
+                id="radio3"
+                type="radio"
+                class="mr-2 radio:bg-blue-500 "
+              ></input>
+              Radio3
+            </span>
           </div>
         </div>
         <div id="switch" class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body ">
             <button class="btn btn-success">Switch Window</button>
             <a
-                
               class=" no-underline link-hover link link-success text-center"
               href="http://localhost:3000/cart"
             >
-              <button id="switch" class="w-40  btn btn-success">
+              <button id="switch" class="w-40 bg-slate-200  btn btn-success">
                 Click me
               </button>
             </a>
           </div>
         </div>
+        
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body ">
             <button class="btn btn-success">Open New Window</button>
+            {/* <Share>Click</Share> */}
             <a
               target="_blank"
               class=" no-underline link link-hover link-success text-center"
               href=" "
             >
-              <button id="newWin" class="w-40  btn btn-success">
+              <button id="newWin" class=" w-40 bg-slate-200  btn btn-success">
                 Click me
               </button>
             </a>
@@ -67,8 +98,9 @@ const Selenium = () => {
         </div>
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body">
-            <label for="my-modal-6" class="btn btn-success modal-button">
-              open modal
+          <button class="btn btn-success">Modal</button>
+            <label for="my-modal-6" class="btn w-40 btn-success bg-slate-200 mx-auto  modal-button">
+              Click Me
             </label>
             <input type="checkbox" id="my-modal-6" class="modal-toggle" />
             <div class="modal modal-bottom sm:modal-middle">
@@ -94,26 +126,31 @@ const Selenium = () => {
         </div>
         <div id="newWin" class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body ">
-            <button class="btn btn-success">Open New Window</button>
+            <button class="btn btn-success ">Not Use</button>
             <a
-              target="_blank"
-              class=" no-underline link link-hover link-success text-center"
+              target="_blan"
+              class=" no-underline lin link-hove link-succes text-center"
               href=" "
             >
-              <button class="w-40  btn btn-success">Click me</button>
+              <button class="disabled:opacity-75  w-40 bg-slate-200  btn btn-success">Click me</button>
             </a>
           </div>
         </div>
         <div class="card w-96 bg-base-100 shadow-xl">
           <div id="window" class="card-body ">
-          
-            <button  class="btn btn-success">Alert Button</button>
+            <button class="btn btn-success">Alert Button</button>
             <a
               target="_blan"
               class=" no-underline link link-hover link-success text-center"
               href=" "
             >
-              <button id='btn1' onClick={handleClick} class=" w-40  btn btn-success">Click me</button>
+              <button
+                id="btn1"
+                onClick={handleClick}
+                class=" w-40 bg-slate-200  btn btn-success"
+              >
+                Click me
+              </button>
             </a>
           </div>
         </div>
@@ -124,7 +161,7 @@ const Selenium = () => {
               <label class="btn btn-success btn-circle swap swap-rotate">
                 <input type="checkbox" />
                 <svg
-                target="_blank"
+                  target="_blank"
                   class="swap-off fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
@@ -134,7 +171,7 @@ const Selenium = () => {
                   <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
                 </svg>
                 <svg
-                 target="_blank"
+                  target="_blank"
                   class="swap-on fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"

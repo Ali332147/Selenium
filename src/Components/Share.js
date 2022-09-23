@@ -5,6 +5,7 @@ const Share = () => {
     alert('Hello alert');
   }
   return (
+    
     <div>
       <button className='btn btn-success' onClick={handleButton}>Click Me</button>
     </div>
