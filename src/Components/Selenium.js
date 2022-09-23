@@ -1,6 +1,9 @@
 import React from 'react';
 
 const Selenium = () => {
+  let handleClick=()=>{
+    alert("I Am Practicing Selenium");
+  }
   return (
     <div className="flex justify-center">
       <div className=" grid sm:grid-cols-1 md:grid-cols-2 sm:justify-between md:justify-between lg:grid-cols-3 lg:justify-between gap-5 py-8">
@@ -103,13 +106,13 @@ const Selenium = () => {
         </div>
         <div class="card w-96 bg-base-100 shadow-xl">
           <div id="window" class="card-body ">
-            <button class="btn btn-success">Not Use</button>
+            <button  class="btn btn-success">Alert Button</button>
             <a
-              target="_blank"
+              target="_blan"
               class=" no-underline link link-hover link-success text-center"
               href=" "
             >
-              <button class="w-40  btn btn-success">Click me</button>
+              <button id='btn1' onClick={handleClick} class=" w-40  btn btn-success">Click me</button>
             </a>
           </div>
         </div>
@@ -146,7 +149,7 @@ const Selenium = () => {
         <div class="card w-96 bg-base-100 shadow-xl">
           <div class="card-body text-center">
             <div id="dropdown" class="dropdown  dropdown-end">
-              <button class="btn btn-success">Drop Down</button>
+              <button class="btn btn-success ">Drop Down</button>
               {/* <label tabIndex="0" class="btn btn-ghost rounded-btn">Dropdown</label> */}
               <ul
                 tabIndex="0"
