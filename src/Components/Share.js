@@ -1,10 +1,13 @@
 import React from 'react';
 
 const Share = () => {
+  let handleButton=()=>{
+    alert('Hello alert');
+  }
   return (
-function displayDate() {
-  document.getElementById("demo").innerHTML = Date();
-}
+    <div>
+      <button className='btn btn-success' onClick={handleButton}>Click Me</button>
+    </div>
   );
 };
 

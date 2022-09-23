@@ -106,6 +106,7 @@ const Selenium = () => {
         </div>
         <div class="card w-96 bg-base-100 shadow-xl">
           <div id="window" class="card-body ">
+          
             <button  class="btn btn-success">Alert Button</button>
             <a
               target="_blan"
